@@ -1,0 +1,1 @@
+Reference program-output images have been added to their task folders (e.g., Task02/Task02_Output.png). These are generated from actual program stdout, not screenshots of the student's VS Code window. For final submission, also capture genuine screenshots from your own VS Code execution if the faculty requires them.
