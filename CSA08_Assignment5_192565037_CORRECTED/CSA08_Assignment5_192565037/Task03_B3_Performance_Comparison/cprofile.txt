@@ -1,0 +1,20 @@
+         1227133 function calls in 0.638 seconds
+
+   Ordered by: cumulative time
+   List reduced from 67 to 12 due to restriction <12>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.098    0.098    0.637    0.637 /mnt/data/CSA08_Assignment5_192565037/Task03_B3_Performance_Comparison/benchmark_methods.py:34(python_csv_groupby)
+   105121    0.184    0.000    0.308    0.000 /usr/lib/python3.13/csv.py:174(__next__)
+     4380    0.006    0.000    0.210    0.000 /usr/lib/python3.13/statistics.py:472(mean)
+     4380    0.060    0.000    0.170    0.000 /usr/lib/python3.13/statistics.py:158(_sum)
+   105122    0.066    0.000    0.067    0.000 {built-in method builtins.next}
+   105120    0.029    0.000    0.050    0.000 /usr/lib/python3.13/statistics.py:291(_exact_ratio)
+     4380    0.009    0.000    0.042    0.000 {built-in method builtins.sum}
+   210241    0.032    0.000    0.032    0.000 /usr/lib/python3.13/csv.py:160(fieldnames)
+   210242    0.026    0.000    0.026    0.000 {built-in method builtins.len}
+     4380    0.006    0.000    0.024    0.000 /usr/lib/python3.13/fractions.py:663(forward)
+     4380    0.005    0.000    0.022    0.000 /usr/lib/python3.13/fractions.py:677(reverse)
+   105120    0.021    0.000    0.021    0.000 {method 'as_integer_ratio' of 'float' objects}
+
+

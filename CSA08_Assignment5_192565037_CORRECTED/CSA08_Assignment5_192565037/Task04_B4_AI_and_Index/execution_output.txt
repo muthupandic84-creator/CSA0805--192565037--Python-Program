@@ -1,0 +1,22 @@
+Complaint count: 50
+Agreement with manual labels: 49/50 (98.0%)
+Frequency-based summary: The factory smoke is serious. The council should inspect the factory.
+First-two-sentence summary: The factory smoke is serious. Residents report dirty air.
+Example scorer limitation: ('The factory is not producing smoke today.', 'positive', 'negative')
+CHATBOT: PM2.5 at Adyar: 50.0
+Index experiment: rows=219000, 300 queries before=3.349860s, after=0.002093s
+Query plan after index:
+  SEARCH readings USING INDEX idx_station_day (station=? AND day=?)
+Decision: retain validated readings in an indexed relational database; batch-process station files; use a reviewed, locally trained sentiment model when complaint volume and language variation exceed the lexicon's capability. Keep human review for ambiguous or high-impact complaints.
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
