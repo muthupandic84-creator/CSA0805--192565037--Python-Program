@@ -1,0 +1,1 @@
+Add genuine terminal screenshots here after running each program locally. Suggested names: Task01.png ... Task06.png. Do not submit screenshots that do not show your own execution.

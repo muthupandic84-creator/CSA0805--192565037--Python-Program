@@ -1,0 +1,1 @@
+Run: `python task4.py`. It appends returns from all three daily files and logs file errors.

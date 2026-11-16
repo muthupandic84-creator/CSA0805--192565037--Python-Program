@@ -1,0 +1,1 @@
+College Fest Registration package. Run `cd fest_registration && python main.py`.

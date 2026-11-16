@@ -1,0 +1,4 @@
+192565101,Asha,CSE,asha@example.com,Debugging;Quiz
+192565102,Bala,CSE,bala.example.com,Quiz
+192565103,Charan,CSE,charan@example.com,Robotics
+bad,damaged,line

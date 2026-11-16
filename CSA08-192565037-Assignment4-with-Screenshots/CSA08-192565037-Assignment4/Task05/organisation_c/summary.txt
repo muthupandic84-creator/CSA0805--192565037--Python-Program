@@ -1,0 +1,2 @@
+present,18
+absent,2

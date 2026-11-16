@@ -1,0 +1,6 @@
+Valid unique registrations: 4
+Events: 4
+Debugging: 1 participants
+Music: 1 participants
+Quiz: 2 participants
+Robotics: 2 participants

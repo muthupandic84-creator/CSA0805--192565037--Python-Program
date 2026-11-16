@@ -1,0 +1,6 @@
+file_name,line_number,raw_line,reason
+CSE.txt,2,"192565102,Bala,CSE,bala.example.com,Quiz",e-mail must contain exactly one @
+CSE.txt,4,"bad,damaged,line","expected 5 fields, found 3"
+ECE.txt,1,"192565101,Asha,CSE,asha@example.com,Debugging",duplicate register number 192565101
+MECH.txt,0,,department file is missing
+CIVIL.txt,0,,department file is missing

@@ -1,0 +1,2 @@
+file_name,line_number,raw_line,reason
+day1.csv,4,"damaged,line",expected 3 fields
