@@ -1,0 +1,28 @@
+1 stations: 365 daily means; all three methods agree
+12 stations: 4380 daily means; all three methods agree
+120 stations: 43800 daily means; all three methods agree
+\nTIMING RESULTS (station count, method, groups, seconds)
+  1 | Python csv loops   |    365 | 0.019883
+  1 | SQL GROUP BY       |    365 | 0.040518
+  1 | pandas groupby     |    365 | 0.013125
+ 12 | Python csv loops   |   4380 | 0.215361
+ 12 | SQL GROUP BY       |   4380 | 0.461591
+ 12 | pandas groupby     |   4380 | 0.060774
+120 | Python csv loops   |  43800 | 2.330335
+120 | SQL GROUP BY       |  43800 | 4.333613
+120 | pandas groupby     |  43800 | 0.491207
+\nProfile saved: cprofile.txt
+Timing table saved: timings.csv
+For a quick one-time analysis, Python/pandas is convenient; for a daily automated report, store readings in SQL and use indexed GROUP BY queries.
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
